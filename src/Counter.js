@@ -3,7 +3,7 @@ import { Component } from "react";
 class Counter extends Component {
     state = {
         number: 0,
-        fixedNumber: 1
+        fixedNumber: 5
     };
     render() {
         const { number, fixedNumber } = this.state;
