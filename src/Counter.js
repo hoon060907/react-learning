@@ -3,7 +3,7 @@ import { Component } from "react";
 class Counter extends Component {
     state = {
         number: 0,
-        fixedNumber: 6
+        fixedNumber: 0
     };
     render() {
         const { number, fixedNumber } = this.state;
@@ -21,7 +21,7 @@ class Counter extends Component {
                                 console.log('방금 setState가 호출되었습니다.');
                                 console.log(this.state);
                             }
-                        )
+                        );
                     }}
                 >
                     +1
